@@ -1,6 +1,6 @@
 # 🚀 Free Resume Maker
 
-A modern, AI-powered, ATS-optimized resume builder featuring professionally designed templates and smart content suggestions.
+### A modern, AI-powered, ATS-optimized resume builder featuring professionally designed templates and smart content suggestions.
 
 ![Preview](preview.png)
 
@@ -83,6 +83,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## ⚠️ Important Note
 
 When downloading your resume as PDF, ensure you disable header and footer in your browser's print settings for the best results.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=HOTHEAD01TH/free-resume-maker&type=Date)](https://star-history.com/#HOTHEAD01TH/free-resume-maker&Date)
 
 ---
 
