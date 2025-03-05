@@ -3,6 +3,8 @@
 ### A modern, AI-powered, ATS-optimized resume builder featuring professionally designed templates and smart content suggestions.
 
 ![Preview](preview.png)
+![Preview](preview2.png)
+
 
 ## ✨ Key Features
 
@@ -16,7 +18,6 @@
 - **Modern UI/UX**: Clean, intuitive interface with a seamless user experience
 - **Export to PDF**: One-click PDF download for your polished resume
 - **Responsive Design**: Perfect resume building experience across all devices
-- **Data Persistence**: Auto-saves your progress using local storage
 - **Zero Cost**: Completely free and open-source
 
 ## 🛠️ Built With
@@ -26,7 +27,6 @@
 - Google Gemini API - AI Content Suggestions
 - React Beautiful DnD - Drag and Drop functionality
 - React Icons - Professional icons
-- Local Storage - Data persistence
 
 ## 📦 Installation
 
