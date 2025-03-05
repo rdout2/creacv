@@ -2,8 +2,11 @@
 
 ### A modern, AI-powered, ATS-optimized resume builder featuring professionally designed templates and smart content suggestions.
 
-![Preview](preview.png)
-![Preview](preview2.png)
+<p align="center">
+  <img src="preview.png" width="45%" />
+  <img src="preview2.png" width="45%" />
+</p>
+
 
 
 ## ✨ Key Features
