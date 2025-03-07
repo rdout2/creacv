@@ -1,8 +1,13 @@
 # 🚀 Free Resume Maker
 
-A modern, AI-powered, ATS-optimized resume builder featuring professionally designed templates and smart content suggestions.
+### A modern, AI-powered, ATS-optimized resume builder featuring professionally designed templates and smart content suggestions.
 
-![Preview](preview.png)
+<p align="center">
+  <img src="preview.png" width="45%" />
+  <img src="preview2.png" width="45%" />
+</p>
+
+
 
 ## ✨ Key Features
 
@@ -16,7 +21,6 @@ A modern, AI-powered, ATS-optimized resume builder featuring professionally desi
 - **Modern UI/UX**: Clean, intuitive interface with a seamless user experience
 - **Export to PDF**: One-click PDF download for your polished resume
 - **Responsive Design**: Perfect resume building experience across all devices
-- **Data Persistence**: Auto-saves your progress using local storage
 - **Zero Cost**: Completely free and open-source
 
 ## 🛠️ Built With
@@ -26,7 +30,6 @@ A modern, AI-powered, ATS-optimized resume builder featuring professionally desi
 - Google Gemini API - AI Content Suggestions
 - React Beautiful DnD - Drag and Drop functionality
 - React Icons - Professional icons
-- Local Storage - Data persistence
 
 ## 📦 Installation
 
@@ -83,6 +86,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## ⚠️ Important Note
 
 When downloading your resume as PDF, ensure you disable header and footer in your browser's print settings for the best results.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=HOTHEAD01TH/free-resume-maker&type=Date)](https://star-history.com/#HOTHEAD01TH/free-resume-maker&Date)
 
 ---
 
