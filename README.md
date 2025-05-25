@@ -7,7 +7,7 @@
   <img src="preview2.png" width="45%" />
 </p>
 
-
+<!-- GitAds-Verify: 3NQ7U162UFM33NVZSY8M3IPHVI14UPSE -->
 
 ## ✨ Key Features
 
