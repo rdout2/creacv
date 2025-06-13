@@ -41,20 +41,30 @@ export default function Hero() {
                 />
             </div>
             
-            <h1 className={`${spaceGrotesk.className} md:text-8xl text-4xl lg:text-7xl font-bold text-center text-white relative z-20 tracking-tighter`}>
-                Free Resume Maker
-            </h1>
-
-            <div className={`${spaceGrotesk.className} text-center text-slate-500 text-xl mt-4 relative z-20`}>
-                <Typewriter
-                    words={['ATS Friendly', 'Smart Suggestions', 'Professional & Perfect']}
-                    loop={0}
-                    cursor
-                    cursorStyle='|'
-                    typeSpeed={10}
-                    deleteSpeed={10}
-                    delaySpeed={800}
-                />
+            <div className="relative z-20 text-center">
+                <h1 className={`${spaceGrotesk.className} md:text-8xl text-4xl lg:text-7xl font-bold text-white tracking-tighter mb-6`}>
+                    Free Resume Maker
+                </h1>
+                <p className={`${spaceGrotesk.className} text-xl text-gray-300 mb-8`}>
+                    Créez votre CV moderne en 3 minutes, gratuitement.
+                </p>
+                <div className={`${spaceGrotesk.className} text-center text-slate-500 text-xl mb-8`}>
+                    <Typewriter
+                        words={['ATS Friendly', 'Smart Suggestions', 'Professional & Perfect']}
+                        loop={0}
+                        cursor
+                        cursorStyle='|'
+                        typeSpeed={10}
+                        deleteSpeed={10}
+                        delaySpeed={800}
+                    />
+                </div>
+                <Link
+                    href="/builder"
+                    className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-8 font-medium text-slate-400 transition-colors hover:text-white focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
+                >
+                    Créer mon CV
+                </Link>
             </div>
 
             {/* Beam and additional sparkles container */}
@@ -78,13 +88,6 @@ export default function Hero() {
                 {/* Radial gradient mask */}
                 <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
             </div>
-
-            <Link
-                href="/builder"
-                className="relative z-20 -mt-20 inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
-            >
-                Create Resume
-            </Link>
         </div>
     );
 }
