@@ -1,101 +1,63 @@
-# 🚀 Free Resume Maker
+# **⚡️ Ceci est un fork du projet Free Resume Maker**
 
-### A modern, AI-powered, ATS-optimized resume builder featuring professionally designed templates and smart content suggestions.
+# CréaCV
 
-## GitAds Sponsored
-[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=hothead01th/free-resume-maker@github)](https://gitads.dev/v1/ad-track?source=hothead01th/free-resume-maker@github)
+CréaCV est une application SaaS open-source, moderne et gratuite pour créer des CV professionnels en ligne, inspirée du projet Free Resume Maker.
 
+## 🚀 Présentation
 
+- Application Next.js + Tailwind CSS
+- Génération de CV PDF sans inscription
+- Données stockées localement (aucun backend)
+- Design moderne, responsive, inspiré des meilleurs outils SaaS
+- Open-source, pensée pour aider les chercheurs d'emploi
 
-<p align="center">
-  <img src="preview.png" width="45%" />
-  <img src="preview2.png" width="45%" />
-</p>
+## ✨ Fonctionnalités principales
 
-<!-- GitAds-Verify: 3NQ7U162UFM33NVZSY8M3IPHVI14UPSE -->
+- **Création de CV en ligne** avec aperçu en temps réel
+- **Export PDF** fidèle à l'aperçu (impression native)
+- **Sans inscription** : vos données restent sur votre appareil
+- **Pré-remplissage intelligent** (import PDF, IA à venir)
+- **Templates modernes** (choix entre plusieurs styles)
+- **Mode sombre** (optionnel)
+- **Open-source** : personnalisez, contribuez, partagez !
 
-## ✨ Key Features
+## 🖥️ Aperçu
 
-- **AI-Powered Content Suggestions**: Smart content optimization using Google's Gemini API
-- **Multiple Professional Templates**: Choose from carefully crafted, industry-standard resume layouts
-- **Smart Content Enhancement**: Get real-time suggestions to improve your resume content
-- **ATS-Friendly**: Engineered to pass Applicant Tracking Systems with flying colors
-- **Real-time Preview**: Instant visual feedback as you build your resume
-- **Drag & Drop Sections**: Easily customize section order to highlight your strengths
-- **Project Links**: Showcase your work with integrated project links and icons
-- **Modern UI/UX**: Clean, intuitive interface with a seamless user experience
-- **Export to PDF**: One-click PDF download for your polished resume
-- **Responsive Design**: Perfect resume building experience across all devices
-- **Zero Cost**: Completely free and open-source
+![Aperçu du builder](./public/assets/resume.jpg)
 
-## 🛠️ Built With
+## 🛠️ Installation
 
-- Next.js - React Framework
-- Tailwind CSS - Styling
-- Google Gemini API - AI Content Suggestions
-- React Beautiful DnD - Drag and Drop functionality
-- React Icons - Professional icons
-
-## 📦 Installation
-
-1. Clone the repository:
 ```bash
-git clone https://github.com/HOTHEAD01TH/free-resume-maker.git
-```
-
-2. Navigate to the project directory:
-```bash
+git clone https://github.com/rdout2/free-resume-maker.git
 cd free-resume-maker
-```
-
-3. Install dependencies:
-```bash
 npm install
-```
-
-4. Set up environment variables:
-```bash
-GEMINI_API_KEY=your_api_key_here
-```
-
-5. Start the development server:
-```bash
 npm run dev
 ```
 
-6. Open your browser and navigate to `http://localhost:3000` to see the application in action.
+Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur.
 
-## 📝 Usage Tips
+## 📄 Utilisation
 
-1. **AI Suggestions**: Click the lightbulb icon to get smart content improvements
-2. **Profile Section**: Start with your personal information and professional summary
-3. **Experience & Projects**: Use action verbs and quantify achievements
-4. **Skills & Certifications**: Include relevant technical and soft skills
-5. **Project Links**: Add GitHub/live links to showcase your work
-6. **Customization**: Drag and drop sections to create the perfect layout
-7. **Download**: Before downloading, disable header/footer in print settings for optimal PDF output
+- Accédez à la page d'accueil pour découvrir l'outil
+- Cliquez sur "Créer mon CV" pour accéder au builder
+- Remplissez vos informations, ajoutez vos expériences, formations, projets…
+- Cliquez sur "Imprimer / Exporter en PDF" pour générer votre CV
+- (Optionnel) Importez un ancien CV PDF pour pré-remplir les champs (fonctionnalité à venir)
 
-## 🤝 Contributing
+## 🧑‍💻 Contribuer
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Les contributions sont les bienvenues ! Forkez le repo, proposez vos améliorations ou ouvrez une issue.
 
-## 📄 License
+## 📜 Licence
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+MIT. Voir le fichier [LICENSE](LICENSE).
 
-## 🙏 Acknowledgments
+## 🔗 Liens
 
-- Special thanks to the open-source community and [Github Projects](https://x.com/githubprojects)
-- Inspired by modern recruitment needs and ATS requirements
-
-## ⚠️ Important Note
-
-When downloading your resume as PDF, ensure you disable header and footer in your browser's print settings for the best results.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=HOTHEAD01TH/free-resume-maker&type=Date)](https://star-history.com/#HOTHEAD01TH/free-resume-maker&Date)
+- Projet original : [Free Resume Maker](https://github.com/HOTHEAD01TH/free-resume-maker)
+- Fork CréaCV : [https://github.com/rdout2](https://github.com/rdout2)
 
 ---
 
-Made with ❤️ by Zaid for job seekers worldwide!
+CréaCV — Outil open-source pour créer un CV moderne, simplement et gratuitement.
