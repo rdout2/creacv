@@ -6,11 +6,11 @@ export default function Home() {
     <main className="min-h-screen bg-gradient-to-b from-[#eaf6fb] to-white text-zinc-900 font-sans">
       {/* Navbar */}
       <nav className="flex items-center justify-between px-8 py-4 border-b border-zinc-200 bg-white/80 backdrop-blur sticky top-0 z-10">
-        <div className="font-bold text-xl tracking-tight text-blue-800">Free Resume Maker</div>
+        <div className="font-bold text-xl tracking-tight text-blue-800">CréaCV</div>
         <div className="flex gap-6 text-sm font-medium">
           <Link href="/" className="hover:text-blue-700 transition">Accueil</Link>
           <Link href="/builder" className="hover:text-blue-700 transition">Créer mon CV</Link>
-          <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-700 transition">GitHub</a>
+          <a href="https://github.com/rdout2" target="_blank" rel="noopener noreferrer" className="hover:text-blue-700 transition">GitHub</a>
         </div>
       </nav>
 
@@ -51,7 +51,7 @@ export default function Home() {
         <div className="w-full flex justify-center">
           <div className="rounded-xl overflow-hidden border border-zinc-200 shadow-lg bg-white">
             {/* Remplacer l'image ci-dessous par un screenshot réel du builder si possible */}
-            <img src="/screenshot-builder-placeholder.png" alt="Aperçu du builder" className="w-[600px] h-[380px] object-cover" />
+            <img src="/assets/resume.jpg" alt="Aperçu du builder" className="w-[600px] h-[380px] object-cover" />
           </div>
         </div>
       </section>
@@ -73,8 +73,8 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="mt-12 py-8 border-t border-zinc-200 text-center text-zinc-500 text-sm bg-white/80">
-        <div className="mb-2">Projet open-source sur <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:underline">GitHub</a></div>
-        <div>&copy; {new Date().getFullYear()} Free Resume Maker. Tous droits réservés.</div>
+        <div className="mb-2">Projet open-source sur <a href="https://github.com/rdout2" target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:underline">GitHub</a></div>
+        <div>&copy; {new Date().getFullYear()} CréaCV. Tous droits réservés.</div>
       </footer>
     </main>
   );
