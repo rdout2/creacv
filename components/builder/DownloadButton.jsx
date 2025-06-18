@@ -2,10 +2,15 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { FiPrinter } from "react-icons/fi";
+import jsPDF from "jspdf";
 
 export default function DownloadButton() {
   const handlePrint = () => {
-    window.print();
+    const resume = document.getElementsByClassName("resume-preview")[0];
+    // download this resume as a pdf
+    const pdf = new jsPDF();
+    pdf.text(resume.innerHTML, 10, 10);
+    pdf.save("resume.pdf");
   };
 
   return (
