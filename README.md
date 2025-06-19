@@ -37,6 +37,8 @@ npm run dev
 
 Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur.
 
+**Si vous utilisez Docker, l'application sera disponible sur [http://localhost:3001](http://localhost:3001).**
+
 ## 📄 Utilisation
 
 - Accédez à la page d'accueil pour découvrir l'outil
